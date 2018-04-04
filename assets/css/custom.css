@@ -211,6 +211,10 @@ section h3{
     background: white url('../img/brad-elvis.png') 90% -10px no-repeat;
 }
 
+#instructor h2{
+    margin: 0px 0px 20px;
+}
+
 /* CSS SPRITE======= */
 
 i.ci{
