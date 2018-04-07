@@ -216,6 +216,7 @@ section h3{
 }
 
 #instructor .num {
+    display: table;
     font-size: 30px;
     font-weight: bold;
     color: white;
@@ -228,6 +229,19 @@ section h3{
     border-radius: 100%;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+}
+
+/* vertical alignment of letter to circle */
+#instructor .num .num-content {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+#instructor .num span {
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
 }
 
 /* CSS SPRITE======= */
