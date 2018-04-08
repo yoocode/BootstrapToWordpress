@@ -88,6 +88,22 @@ img{
     background: #db4939;
 }
 
+blockquote {
+    padding: 0px;
+    border: none;
+    font-style: italic;
+}
+
+blockquote cite {
+    display: block;
+    margin: 20px 0 0 0;
+    color: #777;
+}
+
+blockquote:before{
+    display: none;
+}
+
 /* == HERO == */
 
 #hero {
@@ -216,7 +232,7 @@ section h3{
 }
 
 #instructor .num {
-    display: table;
+    display: table; /*for vertical alignment */
     font-size: 30px;
     font-weight: bold;
     color: white;
@@ -231,7 +247,7 @@ section h3{
     text-rendering: optimizeLegibility;
 }
 
-/* vertical alignment of letter to circle */
+/* vertical alignment of letter block in circle */
 #instructor .num .num-content {
     display: table-cell;
     vertical-align: middle;
@@ -242,6 +258,21 @@ section h3{
     display: block;
     font-size: 24px;
     font-weight: normal;
+}
+
+#kudos {
+    text-align: center;
+}
+
+.testimonials {
+    text-align: left;
+   margin-bottom: 60px;
+}
+
+.testimonials img {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
 }
 
 /* CSS SPRITE======= */
