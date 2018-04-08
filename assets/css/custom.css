@@ -43,6 +43,10 @@ button, input, .btn, a.btn{
     color: white;
 }
 
+.btn:focus{
+    outline: none !important;
+}
+
 .btn {
     font-weight: bold;
 }
@@ -50,6 +54,14 @@ button, input, .btn, a.btn{
 .btn-danger {
     background-color: #dd5638;
     border-collapse: #d95131;
+}
+
+.btn-success {
+    outline: none;
+}
+
+.btn-success:hover {
+    background-color:#79b044;
 }
 
 img{
@@ -273,6 +285,28 @@ section h3{
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
+}
+
+#signup{
+    background: url('../img/hipster-stuff.jpg') center center repeat fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 140px 0;
+}
+
+#signup h2{
+    font-weight: normal;
+}
+
+#signup h2 strong {
+    text-decoration: underline;
+    text-decoration-color: crimson;
+} 
+/* == border-bottom: solid 2px #dd5638; */
+
+#signup .btn {
+    font-size: 24px;
 }
 
 /* CSS SPRITE======= */
