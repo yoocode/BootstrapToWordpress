@@ -116,6 +116,10 @@ blockquote:before{
     display: none;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 /* == HERO == */
 
 #hero {
@@ -307,6 +311,33 @@ section h3{
 
 #signup .btn {
     font-size: 24px;
+}
+
+footer {
+    background: #3e4249;
+    color: white;
+    padding: 20px 0 10px;
+    /* font-size: 12px; */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a:link a:visited {
+    color: plum;
+}
+
+footer a:hover {
+    color: #dd5638;
+}
+
+footer li.signup-link a {
+    color: #dd5638;
+}
+
+footer li.signup-link a:hover {
+    font-weight: bold;
 }
 
 /* CSS SPRITE======= */
